@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Ayomasak: jalankan Vite di port 8081",
+      "type": "shell",
+      "command": "npm.cmd run dev -- --host 127.0.0.1 --port 8081 --strictPort",
+      "isBackground": true,
+      "problemMatcher": {
+        "pattern": {
+          "regexp": ".*",
+          "message": 0
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": ".*",
+          "endsPattern": ".*:8081/.*"
+        }
+      }
+    }
+  ]
+}

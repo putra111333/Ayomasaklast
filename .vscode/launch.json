@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Ayomasak (Chrome, port 8081)",
+      "type": "pwa-chrome",
+      "request": "launch",
+      "url": "http://localhost:8081",
+      "webRoot": "${workspaceFolder}",
+      "preLaunchTask": "Ayomasak: jalankan Vite di port 8081"
+    }
+  ]
+}
